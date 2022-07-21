@@ -16,12 +16,15 @@ export default function createMain(){
     tabs.classList.add('tabs')
     const mainTab=document.createElement('div')
     mainTab.classList.add('item')
+    mainTab.setAttribute("id", "mainTab")
     mainTab.textContent="main"
     const menuTab=document.createElement('div')
     menuTab.classList.add('item')
+    menuTab.setAttribute("id", "menuTab")
     menuTab.textContent="menu"
     const contactTab=document.createElement('div')
     contactTab.classList.add('item')
+    contactTab.setAttribute("id", "contactTab")
     contactTab.textContent="contact"
     const text=document.createElement('div')
     text.classList.add('text')
