@@ -5,6 +5,7 @@ import createContact from './modules/createContact.js'
 import removeChildren from './modules/removeChildren.js'
 import createDefault from './modules/createDefault.js'
 import createMenu from './modules/createMenu.js'
+import './style.css';
 
 createLayout();
 createDefault();
