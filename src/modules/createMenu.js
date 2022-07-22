@@ -7,7 +7,7 @@ export default function createMenu(){
     menuCont.classList.add('menuCont')
     menuCont.appendChild(createMenuItem(menu1, "Devil pancakes", "Delicious pancakes with a cool pentagram made out of strawberry jam"))
     menuCont.appendChild(createMenuItem(menu2, "Death waffles", "Terrifingly delicious waffles with BLOOD(berry jam)"))
-    menuCont.appendChild(createMenuItem(menu3, "Darkness pancakes", "Moody pancakes perfect for fall or a moody mood.Now with blueberries!"))
+    menuCont.appendChild(createMenuItem(menu3, "Darkness pancakes", "Moody pancakes perfect for fall or a moody mood. Now with blueberries!"))
     document.querySelector('.main').appendChild(menuCont)
 
 }
